@@ -1,0 +1,42 @@
+<footer >
+    <div class="grid pl-7 m-0">
+     <div class="col-4">
+        <h3 class="mb-2 text-center text-base text-black-alpha-90">USEFUL LINKS</h3>
+        <h4 class="text-center"><a class="no-underline text-black-alpha-90"  href="">About</a></h4>
+        <h4 class="text-center"><a class="no-underline text-black-alpha-90" href="">Services</a></h4>
+        <h4 class="text-center"><a class="no-underline text-black-alpha-90" href="">Contact</a></h4>
+        <h4 class="text-center"><a class="no-underline text-black-alpha-90" href="">Shop</a></h4>
+     </div>
+     <div class="col-4">
+        <h3 class="mb-2 text-center  text-base text-black-alpha-90">NEWSLETTER</h3>
+        <form #myForm="ngForm" (ngSubmit)="onFormSubmit(myForm)">
+            <div class=" flex justify-content-center">
+                <input type="email" ngModel name="emailAddress"  class="text-center w-9"  pInputText  /> 
+            </div>
+            <div class=" flex justify-content-center mt-3">
+            <button pButton type="submit" class="text-sm justify-content-center   text-white hover:bg-blue-400 w-6">SUBSCRIBE NOW</button>
+            </div>
+        </form>
+     </div> 
+     <div class="col-4">
+            <h3 class="mb-2  text-center  text-base  text-black-alpha-90">CONTACT</h3>
+            <h4 class=" text-black-alpha-90 text-center"> P.No-1367 to 1370, 100 ft. road</h4>
+            <h4 class=" text-black-alpha-90  text-center"> Silicon Valley, Madhapur, Hyderabad</h4>
+            <h4 class=" text-black-alpha-90  text-center">  +91-8885564224</h4>
+            <div class="flex  justify-content-center">
+                <span class=" text-black-alpha-90">
+                    <a clas="no-underline" href=""><i class="pi pi-youtube p-2  text-black-alpha-90"></i></a>
+                    <a clas="no-underline" href=""><i class="pi pi-instagram p-2  text-black-alpha-90"></i></a>
+                    <a clas="no-underline" href=""> <i class="pi pi-facebook p-2  text-black-alpha-90"></i></a>
+                </span>
+            </div>
+     </div>
+    </div>
+    <div class="grid m-0 bg-blue-500">
+        <div class="col-12">
+            <h4 class="flex justify-content-center m-0 p-1 text-white">
+                &copy; 2023 Ahex Technologies |All Rights Reserved
+            </h4>
+        </div>
+    </div>
+</footer>

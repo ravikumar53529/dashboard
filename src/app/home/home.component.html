@@ -1,0 +1,120 @@
+<app-navbar></app-navbar>
+<div class="main-wrapper">
+  <div class="block-contnet" *ngFor="let item of dashboardData">
+    <div class="card-main shadow-7">
+      <a routerLink="dashboarddetail/{{ item.dashboardId }}"
+      ><img
+        [src]="item.dashboardImage"
+        alt=""
+    /></a>
+    </div>
+    <div class="flex justify-content-center mb-5  mt-3">
+      <div class="">
+        <h3 class="text-sm">{{item.dashboardName}}</h3>
+        <!-- <div class="live-pre-button" style="display:block">
+        <a href="https://getbootstrap.com/docs/4.0/components/navbar/" target="_self"> <button pButton class="bg-blue-500 w-7 justify-content-center">Live review</button></a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- <div class="block-contnet">
+    <div class="card-main shadow-7">
+      <a routerLink="dashboarddetail/{{id2}}">
+        <img src="../../assets/images/dashboard2.PNG" alt="">
+      </a>
+    </div>
+    <div class="flex justify-content-between  mt-3">
+      <div>
+        <h3>Phenox-Admin & Dashboard Template</h3>
+      </div>
+      <div class="mt-3">
+        <p-rating
+          [(ngModel)]="value"
+          [readonly]="false"
+          [cancel]="false"
+        ></p-rating>
+      </div>
+    </div>
+  </div>
+  <div class="block-contnet">
+    <div class="card-main shadow-7">
+      <a routerLink="dashboarddetail/{{id2}}">
+        <img src="../../assets/images/dashboard3.PNG" alt="">
+      </a>
+    </div>
+    <div class="flex justify-content-between  mt-3">
+      <div>
+        <h3>S V V-Admin & Dashboard Template</h3>
+      </div>
+      <div class="mt-3">
+        <p-rating
+          [(ngModel)]="value"
+          [readonly]="false"
+          [cancel]="false"
+        ></p-rating>
+      </div>
+    </div>
+  </div>
+  <div class="block-contnet">
+    <div class="card-main shadow-7">
+      <a routerLink="dashboarddetail/{{ id1 }}"
+      ><img
+        src="../../assets/images/dashoboard1.PNG"
+        alt=""
+    /></a>
+    </div>
+    <div class="flex justify-content-between  mt-3">
+      <div class="">
+        <h3>Phenox-Admin & Dashboard Template</h3>
+      </div>
+      <div class="mt-3">
+        <p-rating
+          [(ngModel)]="value"
+          [readonly]="false"
+          [cancel]="false"
+        ></p-rating>
+      </div>
+    </div>
+  </div>
+  <div class="block-contnet">
+    <div class="card-main shadow-7">
+      <a routerLink="dashboarddetail/{{id2}}">
+        <img src="../../assets/images/dashboard2.PNG" alt="">
+      </a>
+    </div>
+    <div class="flex justify-content-between  mt-3">
+      <div>
+        <h3>Phenox-Admin & Dashboard Template</h3>
+      </div>
+      <div class="mt-3">
+        <p-rating
+          [(ngModel)]="value"
+          [readonly]="false"
+          [cancel]="false"
+        ></p-rating>
+      </div>
+    </div>
+  </div>
+  <div class="block-contnet">
+    <div class="card-main shadow-7">
+      <a routerLink="dashboarddetail/{{id2}}">
+        <img src="../../assets/images/dashboard3.PNG" alt="">
+      </a>
+    </div>
+    <div class="flex justify-content-between  mt-3">
+      <div>
+        <h3>S V V-Admin & Dashboard Template</h3>
+      </div>
+      <div class="mt-3">
+        <p-rating
+          [(ngModel)]="value"
+          [readonly]="false"
+          [cancel]="false"
+        ></p-rating>
+      </div>
+    </div>
+  </div> -->
+</div>
+
+
+<app-footer></app-footer>

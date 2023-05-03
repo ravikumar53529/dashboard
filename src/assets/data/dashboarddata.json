@@ -1,0 +1,32 @@
+[
+    {
+        "dashboardId":"4001",
+        "dashboardImage":"../../assets/images/dashboard1.PNG",
+        "dashboardName":"Phenox-Admin & Dashboard Template"
+    },
+    {
+        "dashboardId":"4002",
+        "dashboardImage":"../../assets/images/dashboard2.PNG",
+        "dashboardName":"S A Tech-Admin & Dashboard Template"
+    },
+    {
+        "dashboardId":"4003",
+        "dashboardImage":"../../assets/images/dashboard3.PNG",
+        "dashboardName":"S V V-Admin & Dashboard Template"
+    },
+    {
+        "dashboardId":"4004",
+        "dashboardImage":"../../assets/images/dashboard1.PNG",
+        "dashboardName":"Phenox-Admin & Dashboard Template"
+    },
+    {
+        "dashboardId":"4005",
+        "dashboardImage":"../../assets/images/dashboard2.PNG",
+        "dashboardName":"S A Tech-Admin & Dashboard Template"
+    },
+    {
+        "dashboardId":"4006",
+        "dashboardImage":"../../assets/images/dashboard3.PNG",
+        "dashboardName":"S V V-Admin & Dashboard Template"
+    }
+]

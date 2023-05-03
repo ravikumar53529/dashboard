@@ -1,0 +1,22 @@
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2%;
+    padding: 60px;
+}
+.block-contnet{
+    width: 48%;
+}
+.block-contnet img{
+    width: 100%;
+}
+img:hover {
+    opacity: 0.8; 
+}
+.live-pre-button{
+    position: relative;
+    bottom:230px;
+    left:70px;
+    display: none;
+}
